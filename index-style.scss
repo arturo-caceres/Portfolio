@@ -1,0 +1,100 @@
+.wrapper-text {
+  margin: 0 auto 0;
+  padding: 0 20px;
+  max-width: 740px;
+  text-align: center;
+}
+
+.wrapper-text h2 {
+  margin: 10px 0 0 0;
+  font-size: 50px;
+}
+
+.information {
+  color: darkslategrey;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro-to-site .image-wrapper {
+  text-align: center;
+}
+
+.image-wrapper .banner {
+  width: 300px;
+  border-radius: 50px;
+}
+
+.about-me {
+  padding-top: 40px;
+  height: 400px;
+  max-width: 100%;
+  background-color: #007f72;
+}
+
+.me-title {
+  text-align: center;
+  color: white;
+}
+
+.me-content {
+  max-width: 800px;
+  margin: 40px auto;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.traits {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: -100px;
+  border-radius: 10px;
+  display: flex;
+  border: 3px solid #007f72;
+}
+
+/* Text and Graphic Component - Trait */
+.trait-column {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.trait-column + .trait-column {
+  border-left: 3px solid #007f72;
+}
+
+.trait-column > * {
+  margin: 10px;
+}
+
+.trait-column i {
+  margin: 40px;
+  color: #007f72;
+}
+
+.traits ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.trait-title {
+  color: black;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.trait-subtitle {
+  color: black;
+  font-size: 20px;
+}
+
+.trait-list-title {
+  font-size: 20px;
+  margin: 10px 10px 0;
+  color: #007f72;
+}
