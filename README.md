@@ -3,7 +3,6 @@
 
 #### 🌱 Junior full-stack software engineer, looking to collaborate on web projects
 
-<br>
 
 📍 Sydney, Australia 🇦🇺🦘
 
