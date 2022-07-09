@@ -1,6 +1,5 @@
 ### Hi, I'm Arturo
 
-<br>
 
 #### 🌱 Junior full-stack software engineer, looking to collaborate on web projects
 
