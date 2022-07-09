@@ -4,7 +4,6 @@
   max-width: 740px;
   text-align: center;
 }
-
 .wrapper-text h2 {
   margin: 10px 0 0 0;
   font-size: 50px;
@@ -15,6 +14,11 @@
   font-size: 28px;
   text-align: center;
   margin-bottom: 30px;
+}
+@media only screen and (max-width: 640px) {
+  .information {
+    font-size: 18px;
+  }
 }
 
 .intro-to-site .image-wrapper {
@@ -45,6 +49,17 @@
   font-size: 20px;
   text-align: center;
 }
+@media only screen and (max-width: 640px) {
+  .me-content {
+    margin: 20px;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1280px) {
+  .me-content {
+    padding: 0 20px 0;
+  }
+}
 
 .traits {
   background-color: white;
@@ -56,8 +71,20 @@
   display: flex;
   border: 3px solid #007f72;
 }
+.traits ul li {
+  list-style: none;
+  font-size: 20px;
+}
+@media only screen and (max-width: 640px) {
+  .traits {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    max-width: 335px;
+  }
+}
 
-/* Text and Graphic Component - Trait */
 .trait-column {
   flex-grow: 1;
   flex-basis: 0;
@@ -65,29 +92,26 @@
   display: flex;
   flex-direction: column;
 }
-
-.trait-column + .trait-column {
-  border-left: 3px solid #007f72;
-}
-
-.trait-column > * {
-  margin: 10px;
-}
-
 .trait-column i {
   margin: 40px;
   color: #007f72;
 }
-
-.traits ul li {
-  list-style: none;
-  font-size: 20px;
-}
-
-.trait-title {
+.trait-column-title {
   color: black;
   font-size: 30px;
   text-decoration: underline;
+}
+.trait-column + .trait-column {
+  border-left: 3px solid #007f72;
+}
+@media only screen and (max-width: 640px) {
+  .trait-column + .trait-column {
+    border-left: 0 solid #007f72;
+    border-top: 3px solid #007f72;
+  }
+}
+.trait-column > * {
+  margin: 10px;
 }
 
 .trait-subtitle {
@@ -101,11 +125,20 @@
   color: #007f72;
 }
 
-.avatar {
-  margin: 10px 0 10px;
-  text-align: center;
+@media only screen and (max-width: 640px) {
+  .intro-to-site h2 {
+    font-size: 30px;
+  }
 }
 
-.avatar img {
-  width: 300px;
+@media only screen and (max-width: 640px) {
+  .avatar img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .banner {
+    margin: 20px;
+  }
 }
