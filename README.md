@@ -7,7 +7,6 @@
 
 📍 Sydney, Australia 🇦🇺🦘
 
-<br>
 
 ### 🛠 Technologies & Tools
 
