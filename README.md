@@ -4,7 +4,7 @@
 #### 🌱 Junior full-stack software engineer, looking to collaborate on web projects
 
 
-📍 Sydney, Australia 🇦🇺🦘
+####📍 Sydney, Australia 🇦🇺🦘
 
 
 ### 🛠 Technologies & Tools
