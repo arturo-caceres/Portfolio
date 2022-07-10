@@ -1,18 +1,18 @@
 <br>
 
-Hi, I'm Arturo 😊
+😎 Hi, I'm Arturo 
 
 🌱 Junior Software Engineer, looking to collaborate on web projects
 
 📍 Sydney, Australia 🇦🇺🦘
 
-<br>
 
-### Porfolio
+
+### 💼 Porfolio
 
 arturocaceres.netlify.app
 
-<br>
+
 
 ### 🛠 Technologies & Tools
 
