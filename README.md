@@ -10,9 +10,7 @@
 
 ### 💼 Porfolio
 
-[Live Portfolio link](arturocaceres.netlify.app)
-arturocaceres.netlify.app
-
+[Portfolio link](https://arturocaceres.netlify.app/)
 
 
 ### 🛠 Technologies & Tools
